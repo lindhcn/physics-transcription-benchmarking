@@ -1,10 +1,13 @@
-# Install dependencies:
+#!/bin/bash
+set -e
 
-pip install jiwer
-pip install -U openai-whisper
+apt-get update && apt-get install -y \
+  ffmpeg \
+  libsndfile1 \
+  sox
 
-# Download Full and Dev Dataset WAV Files :p
-
-# check if wget is available (?)
-
-wget http://example.com/file.tar -O ./datasets/full_dataset/test_data
+pip install \
+  "nemo_toolkit[asr]" \
+  soundfile \
+  numpy \
+  openai-whisper
