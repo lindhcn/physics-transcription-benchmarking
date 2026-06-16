@@ -107,7 +107,7 @@ class Test():
                         prompt = prompt_function(test_case["audio_info"])
 
                         # transcribing model
-                        model.transcribe(audio_name, join(dataset_path, "test_data", audio_file), prompt, self.__temp_folder)
+                        model.transcribe(audio_name, join(dataset_path, "test_data", audio_file), prompt, self.__transcriptions_folder)
 
                         if save_transcription:
                             transcription = model.transcription[audio_name]
@@ -388,7 +388,7 @@ class AddToExistingTest():
                 prompt = self.prompt_function(test_case["audio_info"])
 
                 # transcribing model
-                self.model.transcribe(audio_name, join(self.dataset_path, "test_data", audio_file), prompt, self.__temp_folder)
+                self.model.transcribe(audio_name, join(self.dataset_path, "test_data", audio_file), prompt, self.__transcriptions_folder)
 
                 # adding current date and transcribe time to result dict
                 local_rerun_test_results.update({"start_datetime": datetime.now().strftime("%D, %H:%M:%S")})
