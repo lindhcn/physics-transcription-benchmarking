@@ -29,7 +29,7 @@
     },
     {
         "audio_name": "celestial_holography_talk",
-        "audio_file": "celestial_holography_talk-30sec.wav",
+        "audio_file": "celestial_holography_talk-18min.wav",
         "audio_info": {
             "title": "Prospects in Celestial Holography",
             "description": "Have you always wanted to know: What the symmetries of nature are? How black holes process quantum information? What the ultimate UV description of our universe is? Then join me as I continue to develop a new framework to describe scattering: Celestial Holography. The Celestial Holography framework applies the holographic principle to spacetimes with vanishing cosmological constant by mapping 4D S-matrix elements to correlators in a 2D conformal field theory. This map possesses a number of surprising features. For example, it emphasizes infinite dimensional symmetry enhancements, which are typically hidden in IR factorization theorems for amplitudes; reorganizes collinear limits as CFT operator product expansions; and mixes UV and IR behavior in a manner that may allow us to make general claims about scattering not obvious from perturbation theory. Can we show that the UV behavior of amplitudes must be stringy? Can we bootstrap celestial CFTs? Can we unify tools from Loop Quantum Gravity and String Theory? Maybe, with your help!",
@@ -45,11 +45,11 @@
                 "link": "https://pirsa.org/21020004",
                 "link_to_start": "https://pirsa.org/21020004?t=480",
                 "start": "00:08:00",
-                "end": "00:18:06"
+                "end": "00:26:06"
             },
             "notes": "mediocre audio quality, involves simple spoken mathematics, involves mathematical and cosmological terminology"
         },
-        "transcript_file": "celestial_holography_talk-30sec.txt",
+        "transcript_file": "celestial_holography_talk-18min.txt",
         "transcript_info": {
             "source": "",
             "notes": "human edited/reviewed WhisperPI model transcription"
@@ -57,7 +57,7 @@
     },
     {
         "audio_name": "computing_entanglement_talk",
-        "audio_file": "computing_entanglement_talk-2min.wav",
+        "audio_file": "computing_entanglement_talk-10min.wav",
         "audio_info": {
             "title": "Computing Entanglement in Simulations of Quantum Condensed Matter",
             "description": "Condensed matter theorists have recently begun exploiting the properties of entanglement as a resource for studying quantum materials. At the forefront of current efforts is the question of how the entanglement of two subregions in a quantum many-body groundstate scales with the subregion size. The general belief is that typical groundstates obey the so-called 'area law', with entanglement entropy scaling as the boundary between regions. This has lead theorists to propose that sub-leading corrections to the area law provide new universal quantities at quantum critical points and in exotic quantum phases (i.e. topological Mott insulators). However, away from one dimension, entanglement entropy is difficult or impossible to calculate exactly, leaving the community in the dark about scaling in all but the simplest non-interacting systems. In this talk, I will discuss recent breakthroughs in calculating entanglement entropy in two dimensions and higher using advanced quantum Monte Carlo simulation techniques. We show, for the first time, evidence of leading-order area law scaling in a prototypical model of strongly-interacting quantum spins. This paves the way for future work in calculating new universal quantities derived from entanglement, in the plethora of real condensed matter systems amenable to numerical simulation.",
@@ -77,10 +77,39 @@
             },
             "notes": "mediocre audio quality, involves spoken mathematics, involves mathematical and quantum terminology"
         },
-        "transcript_file": "computing_entanglement_talk-2min.txt",
+        "transcript_file": "computing_entanglement_talk-10min.txt",
         "transcript_info": {
             "source": "",
             "notes": "human edited/reviewed WhisperPI model transcription"
+        }
+    
+    },
+     {
+        "audio_name": "black_hole_talk",
+        "audio_file": "black_hole_talk-full.wav",
+        "audio_info": {
+            "title": "Avery Broderick: Perimeter Institute and University of Waterloo",
+            "description": "",
+            "keywords": [],
+            "speakers": [
+                {
+                    "name": "Avery Broderick",
+                    "institution":"Perimeter Institute for Theoretical Physics"
+                }
+            ],
+            "talk_date": "October 3, 2018",
+            "source": {
+                "link":"https://pirsa.org/18100065",
+                "link_to_start": "https://pirsa.org/18100065",
+                "start":"00:00:00",
+                "end":"01:25:34"
+            },
+            "notes": "shortened ver of 1hr"
+        },
+        "transcript_file": "black_hole_talk-full.txt",
+        "transcript_info": {
+            "source": "",
+            "notes": "30 sec"
         }
     }
 ]
