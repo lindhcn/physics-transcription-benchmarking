@@ -1,0 +1,7 @@
+Okay, so why we often need Markov Chain Monte Carlo is that in real life these models and
+likelihoods are often pretty complicated.
+So the constraints are kind of complicated and we can't really represent them in analytic
+form.
+But you can represent them by drawing samples from the distribution and MCMC is a way of
+drawing samples from a probability distribution when you can compute it numerically but you
+can't represent it analytically or can't solve it analytically.
